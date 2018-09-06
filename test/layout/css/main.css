@@ -1,0 +1,172 @@
+body{
+	padding: 0;
+	margin: 0;
+
+}
+
+header{
+	height: 80px;
+}
+
+.container{
+	width: 840px;
+	margin: 0 auto;
+		max-width:100%;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+.logo{
+	height: 50 px;
+	margin-top: 20px;
+	float: left;
+}
+
+nav {
+    float: right;
+    display: block;
+}
+
+
+.menu{
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+.menu li{
+	float: left;
+	display: block;
+	margin-right: 30px;
+	margin-top: 30px;
+}
+
+#nav-toggle{
+	float: right;
+	margin-top:30px;
+	margin-right: 15px;
+	font-size: 20px;
+	display: none;
+}
+
+.menu a {
+	text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000FF;
+    font-family: "Tahoma";
+    font-weight: bold;
+}
+
+section{
+	margin-bottom: 28px;
+}
+
+
+.article{
+	height: 285px;
+	background-color: #f0f0f0;
+}
+
+.left-box{
+    width: 380px;
+    height: 230px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 30px;
+    overflow: hidden;
+    background-color: #7c7c7c;
+    float: left;
+}
+
+.right-box{
+	width: 380px;
+	height: 230px;
+	margin-top: 30px;
+	padding-right: 30px;
+	float: right;
+}
+
+.right-box h2 {
+	margin: 0;
+    font-size: 21px;
+    line-height: 28px;
+    color: color: #000000FF;
+    font-family: "Tahoma";
+    font-weight: bold;
+}
+
+.right-box p {
+	margin: 10px 0px 10px 0px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #969696;
+    font-family: "Times New Roman";
+}
+
+.right-box input {
+    width: 110px;
+    height: 27px;
+    font-size: 13px;
+    line-height: 22px;
+    color: #FEFEFE;
+    font-family: "Tahoma";
+    background-color: #da4136;
+    text-decoration: none;
+    border: 0px;
+    border-radius: 3px;
+
+}
+
+.text h1 {
+    font-size: 18px;
+    line-height: 19px;
+    color: #000000FF;
+    font-family: "Tahoma";
+    font-weight: bold;
+}
+
+.text p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #969696;
+    font-family: "Times New Roman";
+}
+
+.items{
+height: 50px;
+margin:30px 0px 30px 0px ;
+}
+
+.item{
+	width: 180px;
+	height: 50px;
+    float: left;
+    margin-right: 30px;
+}
+
+
+
+.item a{
+	width: 50px;
+	height: 40px;
+	float: left;
+	margin-right: 5px;
+	
+}
+.item p {
+    display: inline;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000FF;
+     font-weight: bold;
+    font-family: "Times New Roman";
+    font-style: italic;
+  
+    
+}
